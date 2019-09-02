@@ -1,0 +1,8 @@
+<h2 style="text-align: center">Lorem Ispum</h2>
+<div class="gallery-container">
+    <div class="gallery-box" *ngFor="let place of places">
+        <h3>{{place.placeName}}</h3>
+        <img src="{{place.placeImage}}" width="100%" height="300px" />
+        <p>{{place.placeDetails}}</p>
+    </div>
+</div>

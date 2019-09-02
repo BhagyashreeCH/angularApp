@@ -1,0 +1,24 @@
+{
+  "placesList": [
+      {
+        "placeName":"Bijapur",
+        "placeImage":"assets/bijapur.jpg",
+        "placeDetails":"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+      },
+      {
+        "placeName":"Bagalkot",
+        "placeImage":"assets/bagalkot.jpg",
+        "placeDetails":"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+      },
+      {
+        "placeName":"Mysore",
+        "placeImage":"assets/mysore.jpg",
+        "placeDetails":"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+      },
+      {
+        "placeName":"Coorg",
+        "placeImage":"assets/coorg.jpg", 
+        "placeDetails":"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+      }
+    ]
+}

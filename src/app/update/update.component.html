@@ -1,0 +1,27 @@
+<h2 style="text-align: center;">Add new place to the gallery</h2>
+<div class="container add-place-container" style="margin-top: 3rem;">
+    <div class="row">
+        <div class="col-lg-6 col-sg-12 center-align-box">
+            <div class="add-places-box">
+                <form [formGroup]="addplace" (ngSubmit)="onSubmit()">
+                    {{addplace.value | json}}
+                    <div class="form-group">
+                        <label for="placeName">PlaceName</label>
+                        <input formControlName="placeName" type="text" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="placeImage">PlaceImage</label>
+                        <input formControlName="placeImage" type="text" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="placeDetails">PlaceDetails</label>
+                        <input formControlName="placeDetails" type="text" class="form-control"/>
+                    </div>
+                    <div class="btn-align">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

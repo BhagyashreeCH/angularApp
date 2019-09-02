@@ -1,0 +1,31 @@
+.gallery-container{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 5% ;
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .gallery-box{
+        @media (min-width: 768px) {
+            width: 40%;
+            margin: 4rem 5%;
+        }
+       width: 100%;
+       border: 1px solid gray;
+       border-radius: 2px;
+       margin: 0;
+       padding: 1rem;
+    
+       p, img{
+           padding: 2rem;
+       }
+
+       p{
+           font-size: 1.75rem;
+           line-height: 2rem;
+       }
+    }
+}
