@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { MydataService } from 'src/services/mydata.service';
 
 @Component({
@@ -10,8 +10,12 @@ export class FooterComponent implements OnInit {
 
   constructor(private myname:MydataService) { }
   name;
+  @Input() parentDataitem:string;
+  @Output() childContent = new EventEmitter<string>();
   ngOnInit() {
     this.myname.getname.subscribe(data =>this.name = data)
   }
-
+ onClickEvent(){
+   this.childContent.emit('Child content');
+ }
 }

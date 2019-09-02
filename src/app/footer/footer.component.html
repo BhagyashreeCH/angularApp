@@ -2,7 +2,9 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 footer-content">
+                <p>{{parentDataitem}}</p>
                 <p>Note: This is a test ({{name}}) site created to experiment angular concepts</p>
+                <button (click)="onClickEvent()" class="btn btn-primary">Get child content</button>
             </div>
         </div>
     </div>

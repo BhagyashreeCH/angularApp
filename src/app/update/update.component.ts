@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { MydataService } from 'src/services/mydata.service';
 import { PlacesServiceService } from 'src/services/places-service.service';
 import { FormGroup, FormBuilder, FormControl, NgFormSelectorWarning } from '@angular/forms';
 import { IPlaceDetails } from 'src/model/placedetails.model';
@@ -12,10 +11,10 @@ export class UpdateComponent implements OnInit {
   name:string;
   addplace:FormGroup;
   place:IPlaceDetails;
-  constructor(private myname:MydataService, private fb:FormBuilder, private placesService:PlacesServiceService) { }
+  constructor(private fb:FormBuilder, private placesService:PlacesServiceService) { }
 
   ngOnInit() {
-    //this.myname.getname.subscribe(data =>this.name = data)
+    
   this.addplace = this.fb.group({
     placeName : [''],
     placeImage : ['assets/mysore.jpg'],

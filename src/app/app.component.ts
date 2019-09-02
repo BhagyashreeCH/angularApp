@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my-poc';
   setcolor = "green";
+  datafromchild;
+  parentData:string = "content from parent";
+  childdata(msg:string){
+    this.datafromchild = msg;
+  }
 }
