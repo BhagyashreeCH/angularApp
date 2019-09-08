@@ -4,7 +4,7 @@
         <div class="col-lg-6 col-sg-12 center-align-box">
             <div class="add-places-box">
                 <form [formGroup]="addplace" (ngSubmit)="onSubmit()">
-                    {{addplace.value | json}}
+                    <!--{{addplace.value | json}} -->
                     <div class="form-group">
                         <label for="placeName">PlaceName</label>
                         <input formControlName="placeName" type="text" class="form-control"/>

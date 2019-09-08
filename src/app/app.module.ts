@@ -14,6 +14,8 @@ import { EmptygalleryComponent } from './emptygallery/emptygallery.component';
 import { CanactivateguardService } from '../services/canactivateguard.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CanDeactivateGuardService } from '../services/can-deactivate-guard.service';
+import { PlacetypefilterPipe } from './pipe/placetypefilter.pipe';
+import { ContactusComponent } from './contactus/contactus.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,9 @@ import { CanDeactivateGuardService } from '../services/can-deactivate-guard.serv
     CustomdirectiveDirective,
     FooterComponent,
     PlacesGallaryComponent,
-    EmptygalleryComponent
+    EmptygalleryComponent,
+    PlacetypefilterPipe,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,

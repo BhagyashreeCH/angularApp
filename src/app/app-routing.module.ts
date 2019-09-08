@@ -6,12 +6,15 @@ import { PlacesGallaryComponent } from './places-gallary/places-gallary.componen
 import { EmptygalleryComponent } from './emptygallery/emptygallery.component';
 import { CanactivateguardService } from '../services/canactivateguard.service';
 import { CanDeactivateGuardService } from '../services/can-deactivate-guard.service';
+import { ContactusComponent } from './contactus/contactus.component';
 const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path:'addItemToGallery',component:UpdateComponent, canDeactivate:[CanDeactivateGuardService]},
   {path:'placesGallery',component:PlacesGallaryComponent, canActivate:[CanactivateguardService]},
   {path:'emptyGallery',component:EmptygalleryComponent},
+  {path:'contactUs',component:ContactusComponent},
   {path:'', redirectTo:'/home', pathMatch:'full'}
+
 ];
 
 @NgModule({

@@ -1,0 +1,39 @@
+.contact-us {
+    .center-align-box{
+        margin: 0;
+        @media (min-width: 768px) {
+            margin: 0 16.67%;
+        }
+    }
+    .contact-us-box {
+        padding: 1rem;
+        text-align: center;
+        font-size: 16px;
+        line-height: 2rem;
+        .image-container{
+            border-radius: 50%;
+            margin: 0 25%;
+            border: 1px solid green;
+            height:120px;
+            img{
+                position: relative;
+                top: 3rem;
+            }
+        }
+        .contact-us-content{
+            margin-top: 2rem;
+        }
+        .contact-by-mail{
+            border-right: none;
+            border-bottom: 1px solid black;
+            @media (min-width: 768px) {
+                border-right: 1px solid black;
+                border-bottom: none;
+            }
+            padding: 1rem;
+        }
+        .contact-by-phone{
+            padding: 1rem;
+        }
+    }
+}

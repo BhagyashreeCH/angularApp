@@ -2,21 +2,49 @@
       {
         "placeName":"Bijapur",
         "placeImage":"assets/bijapur.jpg",
+        "placeType":"tourist",
         "placeDetails":"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
       },
       {
         "placeName":"Bagalkot",
         "placeImage":"assets/bagalkot.jpg",
+        "placeType":"tourist",
         "placeDetails":"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
       },
       {
         "placeName":"Mysore",
         "placeImage":"assets/mysore.jpg",
+        "placeType":"tourist",
+        "placeDetails":"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+      },
+      {
+        "placeName":"Madurai",
+        "placeImage":"assets/meenakshiTemple.jpg", 
+        "placeType":"religiousPilgrimage",
+        "placeDetails":"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+      },
+      {
+        "placeName":"Tharnjavu",
+        "placeImage":"assets/brihadeeshwarTemple.jpg", 
+        "placeType":"religiousPilgrimage",
+        "placeDetails":"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+      },
+      {
+        "placeName":"Tirupati",
+        "placeImage":"assets/venkateswaraTemple.jpg", 
+        "placeType":"religiousPilgrimage",
+        "placeDetails":"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+      },
+      {
+        "placeName":"Somanath",
+        "placeImage":"assets/somanathTemple.jpg",
+        "placeType":"religiousPilgrimage", 
         "placeDetails":"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
       },
       {
         "placeName":"Coorg",
         "placeImage":"assets/coorg.jpg", 
+        "placeType":"tourist",
         "placeDetails":"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
       }
     ]
