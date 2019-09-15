@@ -16,6 +16,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CanDeactivateGuardService } from '../services/can-deactivate-guard.service';
 import { PlacetypefilterPipe } from './pipe/placetypefilter.pipe';
 import { ContactusComponent } from './contactus/contactus.component';
+import { PlaceDetailsComponent } from './place-details/place-details.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,8 @@ import { ContactusComponent } from './contactus/contactus.component';
     PlacesGallaryComponent,
     EmptygalleryComponent,
     PlacetypefilterPipe,
-    ContactusComponent
+    ContactusComponent,
+    PlaceDetailsComponent
   ],
   imports: [
     BrowserModule,
